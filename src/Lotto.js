@@ -10,9 +10,14 @@ class Lotto {
     if (numbers.length !== 6) {
       throw new Error("[ERROR] 로또 번호는 6개여야 합니다.");
     }
+  환
+
+  // 로또 번호 배열 반환
+  getNumners(){
+
   }
 
-  // TODO: 추가 기능 구현
+  // 로또 번호를 문자열로 반환
 }
 
 export default Lotto;
