@@ -13,11 +13,17 @@ class Lotto {
   환
 
   // 로또 번호 배열 반환
-  getNumners(){
-
+  getNumbers(){
+    return this.#numbers;
   }
 
   // 로또 번호를 문자열로 반환
+  toString(){
+    return "[" +this.#numbers.join(', ') + "]";
+  }
+
+  
+}
 }
 
 export default Lotto;

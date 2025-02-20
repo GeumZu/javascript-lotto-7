@@ -36,6 +36,8 @@ class App {
       Console.print(ticket.toString());
     });
 
+    Console.close()
+
   }
 }
 
