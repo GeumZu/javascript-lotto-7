@@ -10,20 +10,11 @@ class Lotto {
     if (numbers.length !== 6) {
       throw new Error("[ERROR] 로또 번호는 6개여야 합니다.");
     }
-  환
-
-  // 로또 번호 배열 반환
-  getNumbers(){
-    return this.#numbers;
   }
-
-  // 로또 번호를 문자열로 반환
-  toString(){
+  
+   toString(){
     return "[" +this.#numbers.join(', ') + "]";
   }
-
-  
-}
 }
 
 export default Lotto;
